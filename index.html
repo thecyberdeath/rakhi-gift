@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Raksha Bandhan!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      background: url('rakhi-bg.jpg') no-repeat center center;
+      background-size: contain;
+      background-color: #fcebdc; /* fallback background */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      font-family: 'Georgia', serif;
+    }
+
+    .gift-btn {
+      margin-bottom: 6vh;
+      color: #701c45;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+    }
+
+    .gift-btn:hover {
+      opacity: 0.7;
+    }
+
+    @media (orientation: portrait) {
+      body {
+        background-size: contain;
+      }
+    }
+
+    @media (orientation: landscape) {
+      body {
+        background-size: contain;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="gift-btn" onclick="location.href='gifts.html'">CLICK HERE TO GET YOUR GIFT</button>
+</body>
+</html>
